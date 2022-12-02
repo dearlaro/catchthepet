@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\UsuarioController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -19,8 +20,4 @@ Route::get('/', function () {
 
 Route::prefix('usuario')->group(function() {
     Route::get('', [UsuarioController::class, 'index'])->name('usuario.index');
-    Route::get('/create', [UsuarioController::class, 'create'])->name('usuario.create');
-    Route::get('/create', [UsuarioController::class, 'create'])->name('usuario.create');
-    Route::get('/{id}/delete',[UsuarioController::class,'destroy'])->name('usuario.delete');
-
 });
