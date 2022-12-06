@@ -15,9 +15,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('usuario.inicial');
 });
 
 Route::prefix('usuario')->group(function() {
-    Route::get('', [UsuarioController::class, 'index'])->name('usuario.index');
+    Route::get('', [UsuarioController::class, 'inicial'])->name('usuario.inicial');
 });

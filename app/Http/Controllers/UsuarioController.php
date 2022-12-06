@@ -14,7 +14,11 @@ class UsuarioController extends Controller
      */
     public function index()
     {
-        return view('usuario.index');
+        return view('usuario.principal');
+    }
+    public function inicial()
+    {
+        return view('usuario.inicial');
     }
 
     /**
