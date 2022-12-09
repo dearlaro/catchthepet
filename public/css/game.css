@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.icon-back{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0.5rem 0.5rem;
+    z-index: 1;
+}
+.icon-back:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.game-board{
+    width: 100%;
+    height: 625px;
+    margin: 0 auto;
+    border-bottom:50px solid rgba(175, 207, 61, 0.884);
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(#87CEEB, #E0F6FF);
+}
+
+.pipe{
+    position: absolute;
+    bottom: 0;
+    width: 80px;
+    animation: pipe-animation 1.5s infinite linear; 
+}
+
+.dog{
+    width: 150px;
+    position: absolute;
+    bottom: -50px;
+
+    
+}
+
+
+.dogDead{
+    width: 150px;
+    position: absolute;
+    bottom:0;
+}
+    
+.jump{
+    animation: jump 500ms ease-out;
+}
+.clouds{
+    position: absolute;
+    width: 990px;
+    top: 0;
+    animation: clouds-animation 20s infinite linear;
+}
+
+#preloader {
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:#ffffff; /* cor do background que vai ocupar o body */
+    z-index:999; /* z-index para jogar para frente e sobrepor tudo */
+}
+#preloader .inner {
+    position: absolute;
+    top: 50%; /* centralizar a parte interna do preload (onde fica a animação)*/
+    left: 50%;
+    transform: translate(-50%, -50%);  
+}
+
+
+@keyframes pipe-animation{
+    from{
+        right: -80px;
+    }
+    to{
+        right: 100%;
+    }
+}
+
+
+@keyframes jump{
+    0%{
+        bottom: 0;
+    }
+    40%{
+        bottom: 180px;
+    }
+    50%{
+        bottom: 180px;
+    }
+    60%{
+        bottom:180px;
+    }
+    100%{
+        bottom: 0;;
+    }
+}
+
+@keyframes clouds-animation {
+    from{
+        right: -550px;
+    }
+
+    to{
+        right: 100%;
+    }
+}

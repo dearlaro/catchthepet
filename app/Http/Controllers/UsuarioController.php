@@ -16,9 +16,28 @@ class UsuarioController extends Controller
     {
         return view('usuario.principal');
     }
+
     public function inicial()
     {
         return view('usuario.inicial');
+    }
+
+    public function login()
+    {
+        return view('usuario.login');
+    }
+
+    public function tinder()
+    {
+        return view('usuario.tinderPet');
+    }
+    public function game()
+    {
+        return view('usuario.game');
+    }
+    public function tinderPet()
+    {
+        return view('usuario.tinderPet');
     }
 
     /**
@@ -26,9 +45,10 @@ class UsuarioController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+    
     public function create()
     {
-        //
+        return view('usuario.cadastro');
     }
 
     /**
@@ -39,7 +59,15 @@ class UsuarioController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        Usuario::create([
+            'primeironome' => $request['primeironome'],
+            'sobrenome' => $request['sobrenome'],
+            'email' => $request['email'],
+            'senha' => $request['senha'],
+            'telefone' => $request['telefone'],
+            'genero' => $request['genero']
+        ]);
+        return redirect()->route('usuario.index');
     }
 
     /**
@@ -50,7 +78,8 @@ class UsuarioController extends Controller
      */
     public function show($id)
     {
-        //
+        $usuario = Usuario::find($id);
+        return view('usuario.principal', ['usuario' => $usuario]);
     }
 
     /**
@@ -61,7 +90,8 @@ class UsuarioController extends Controller
      */
     public function edit($id)
     {
-        //
+        $usuario = Usuario::find($id);
+        return view('usuario.cadastro', ['usuario' => $usuario]);
     }
 
     /**
@@ -73,7 +103,10 @@ class UsuarioController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $usuario = Usuario::find($id);
+        $usuario->fill($request->toArray());
+        $usuario->save();
+        return redirect()->route('usuario.principal');
     }
 
     /**
@@ -84,6 +117,8 @@ class UsuarioController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $usuario = Usuario::find($id);
+        $usuario->delete();
+        return redirect()->route('usuario.principal');
     }
 }
