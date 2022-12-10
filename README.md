@@ -1,66 +1,42 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<p align="center"><a href="" target="_blank"><img src="https://user-images.githubusercontent.com/88463116/206819933-baa20029-9f27-4ae2-90ff-e2ac4db5f7bd.png" width="400" alt="logo"></a></p>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
 
-## About Laravel
+# 👨‍💻Sobre o sistema
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+<p align="center">:construction: Projeto ainda em construção :construction:</p>
+<p align="center"><a href="" target="_blank"><img src="https://user-images.githubusercontent.com/88463116/206820096-7ba73cc7-0ea0-49b9-a505-b5d5ed5cc2c3.png" width="400" alt="inicio"></a></p>
+<p align="center">Figura 1- Tela Inicial </p>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+<p align="center"><a href="" target="_blank"><img src="https://user-images.githubusercontent.com/88463116/206820454-262095c6-f641-4b74-91a9-c607bc93d523.png" width="400" alt="login"></a></p>
+<p align="center">Figura 2- Tela de Login </p>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+<p align="center"><a href="" target="_blank"><img src="https://user-images.githubusercontent.com/88463116/206820617-1868dcc6-39cf-4f64-8bae-8e8a69a3d304.png" width="400" alt="cadUser"></a></p>
+<p align="center">Figura 3- Tela de Cadastro do Usuário </p>
 
-## Learning Laravel
+<p align="center"><a href="" target="_blank"><img src="https://user-images.githubusercontent.com/88463116/206820647-9fb261df-9197-4395-a47e-fb04365cb72d.png" width="400" alt="cadPet"></a></p>
+<p align="center">Figura 4- Tela de Cadastro do Pet </p>
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+<p align="center"><a href="" target="_blank"><img src="https://user-images.githubusercontent.com/88463116/206820681-6f79dcb5-7e64-4644-86e6-584469335989.png" width="400" alt="principal"></a></p>
+<p align="center">Figura 5- Tela Principal </p>
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+<p align="center"><a href="" target="_blank"><img src="https://user-images.githubusercontent.com/88463116/206820705-40ed292c-3383-4083-8677-59f41bd1d784.png" width="400" alt="menu"></a></p>
+<p align="center">Figura 6- Tela Principal com Menu </p>
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+<p align="center"><a href="" target="_blank"><img src="https://user-images.githubusercontent.com/88463116/206820769-2adcef41-337d-4f4d-a788-8b5c9302c589.png" width="400" alt="criaPost"></a></p>
+<p align="center"><a href="" target="_blank"><img src="https://user-images.githubusercontent.com/88463116/206820776-c01119fe-ad52-4f80-a977-2fc177e1b7ab.png" width="400" alt="post"></a></p>
+<p align="center">Figura 7- Auau Fórum </p>
 
-## Laravel Sponsors
+<p align="center"><a href="" target="_blank"><img src="https://user-images.githubusercontent.com/88463116/206820854-d4fbf673-03a1-447a-8fc3-dc16f78d61d4.png" width="400" alt="tinder"></a></p>
+<p align="center">Figura 8- Tinder Pet </p>
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+<p align="center"><a href="" target="_blank"><img src="https://user-images.githubusercontent.com/88463116/206820912-31ae2af7-009a-4226-85e3-37348e0923a3.png" width="400" alt="game"></a></p>
+<p align="center">Figura 9- Pet Game</p>
 
-### Premium Partners
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+# 🛠️ Abrir e rodar o projeto
+**Para que o projeto funcione é necessário possuir as instalações necessárias para o funcionamento do laravel e dentro do terminal basta digitar "php artisan serve" e prosseguir com as indicações.**
 
-## Contributing
+# Autores
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+| [<img src="https://avatars.githubusercontent.com/u/95624013?v=4" width=115><br><sub>Jeniffer Sousa</sub>](https://github.com/JenifferSP) |  [<img src="https://avatars.githubusercontent.com/u/88463116?v=4" width=115><br><sub>Larissa Iara</sub>](https://github.com/dearlaro) |  [<img src="https://avatars.githubusercontent.com/u/65727310?v=4" width=115><br><sub>Rebecca Januario</sub>](https://github.com/rebeccajanuario) | [<img src="https://avatars.githubusercontent.com/u/100053515?v=4" width=115><br><sub>Ketlin Rayssa </sub>](https://github.com/Ketlincarvalho) |
+| :---: | :---: | :---: | :---: |
