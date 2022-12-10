@@ -394,7 +394,7 @@ main.sing-up-mode .forms-wrap{
 
 
 main.sing-up-mode .img{
-    left: -7% ;
+    left: -2% ;
 }
 
 .Remove{
@@ -415,7 +415,7 @@ main.sing-up-mode .img{
     height: 100%;
     width: 55%;
     top: 0;
-    left: 51%;
+    left: 61%;
     transition: 0.8s ease-in-out;
 }
 
@@ -442,7 +442,7 @@ main.sing-up-mode .img{
     height: 15rem;
     padding: 2rem;
     background-color: rgb(240, 220, 191);
-    margin: 4rem;
+    margin: 2rem;
     margin-top: 10rem;
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgba(0,0,0, .212);

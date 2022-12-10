@@ -46,7 +46,7 @@
         </div>
         <img src="{{ asset('img/Principal/mountains_behind.png') }}" alt="montanhas de tras" id="mountains_behind">
         <h2 id="text">Catch <br /> The Pet</h2>
-        <a href="#sec" id="btn">Explore</a>
+        <a href="{{ route('usuario.tinderPet')}}" id="btn">Explore</a>
         <img src="{{ asset('img/Principal/mountains_front.png') }}" alt="montanhas da frente" id="mountains_front">
 
 
@@ -68,9 +68,9 @@
                     <h2>Criar publicação</h2>
                     <form action="#" class="" id="">
                     <div class="content">
-                              <img src="{{ asset('img/Principal/img-post/fb-icons/logo.png') }}" alt="" srcset="">
+                              <img src="{{ asset('img/Principal/logoredonda.png') }}" alt="" srcset="">
                             <div class="details">
-                                <p>CodingNepal</p>
+                                <p>Rebecca Januario</p>
                                 <div class="privacy">
                                     <i class="fas fa-user-friends"></i>
                                         <span>Friends</span>
